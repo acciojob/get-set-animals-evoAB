@@ -1,6 +1,5 @@
 //complete this code
 class Animal {
-	let species="";
 	constructor(species){
 		this.species=species;
 	}
@@ -8,7 +7,7 @@ class Animal {
 		return this.species;
 	}
 	makeSound(){
-		console.log(`The ${this.species} makes a sound`)
+		console.log(`The ${this.species} makes a sound`);
 	}
 }
 
